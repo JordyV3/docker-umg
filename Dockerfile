@@ -16,6 +16,6 @@ CMD /usr/sbin/apache2ctl -D FOREGROUND
 
 # docker build -t apacheserver.
 
-# docker run -d --name apache1 apacheserver
+# docker build -t dockerumg .
 
-# docker exec apache1 curl localhost
+# sudo docker run -d -p 8085:80 dockerumg
